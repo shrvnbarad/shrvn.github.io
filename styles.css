@@ -49,6 +49,13 @@ nav ul{
 nav li{
     display:inline-block ;
 }
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
 nav li a{
     text-decoration: none;
     color: orange;
@@ -121,6 +128,43 @@ nav li a{
 }
 footer{
     position: absolute;
-    top: 1700px;
-    
+    top: 2500px;
+}
+
+.Slides{
+    width: 100%;
+}
+.slideshow{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    top: 900px;
+}
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 20px;
+    color: white;
+    background-color: black;
+  }
+  
+.next {
+    right: 0;
+    top:350px;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0;
+    top:350px;
+    border-radius: 3px 0 0 3px;
+}
+
+.events{
+    position: absolute;
+    top: 1650px;
+    font-size: 30px;
+    left: 500px;
 }

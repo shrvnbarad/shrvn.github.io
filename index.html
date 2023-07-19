@@ -12,13 +12,14 @@
 <body>
     <header>
         <h2>My Website</h2>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <ul class="navmenu">
                 <li><a href="#banner">Home</a></li>
                 <li><a href="#Introduction">Introduction</a></li>
                 <li><a href="#Portfolio">Portfolio</a></li>
                 <li><a href="#Aboutme">About me</a></li>
                 <li><a href="#Contact">Contact</a></li>
+                <li><a href="#events">SWG Events</a></li>
             </ul>
         </nav>
     </header>
@@ -58,11 +59,40 @@
             <li><a href="https://www.instagram.com/shrvn.21/">Instagram</a></li>
         </ul>   
     </section>
+<section id="events" class="events">
+    <h2>SWG Events</h2>
+</section>
+
+    <div class="slideshow">
+
+        <div class="Slides">
+          <img src="event1.jpg" style="width:100%">
+        </div>
+        
+        <div class="Slides">
+          <img src="event2.jpg" style="width:100%">
+        </div>
+        
+        <div class="Slides">
+          <img src="event3.jpg" style="width:100%">
+        </div>
+
+        <div class="Slides">
+          <img src="event4.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+
     <section>
         <footer>
             <p>© 2023 My Website. All rights reserved.</p>
         </footer>
     </section>
+
+    <script src="script.js"></script>
     
     
 </body>
